@@ -1,0 +1,194 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T10:29:09.757Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1560310787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.setDriver()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Provide the signUp functions to swiggy users",
+        "description": "",
+        "id": "singup-functionality-in-swiggy-website;provide-the-signup-functions-to-swiggy-users",
+        "after": [
+          {
+            "result": {
+              "duration": 114870739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1819211116,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on the swiggy home page",
+            "match": {
+              "location": "SwiggySignUp.the_user_is_on_the_swiggy_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5341757289,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on SignUp",
+            "match": {
+              "location": "SwiggySignUp.user_click_on_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245120998,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be redirected to SignUp page",
+            "match": {
+              "location": "SwiggySignUp.user_should_be_redirected_to_signup_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T10:29:18.863Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1028669310,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.setDriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Provide the SignUp functions to swiggy user",
+        "description": "",
+        "id": "singup-functionality-in-swiggy-website;provide-the-signup-functions-to-swiggy-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 89837371,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SetUp.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1837049065,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user is on the swiggy SignUp page",
+            "match": {
+              "location": "SwiggySignUp.the_user_is_on_the_swiggy_signup_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5540177623,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"8888888888\"\"user\"\"user@gmail.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8888888888",
+                  "offset": 13
+                },
+                {
+                  "val": "user",
+                  "offset": 25
+                },
+                {
+                  "val": "user@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "abc123",
+                  "offset": 52
+                }
+              ],
+              "location": "SwiggySignUp.user_enters_somethingsomethingsomething_and_something(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62019496,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to SignUp",
+            "match": {
+              "location": "SwiggySignUp.user_should_be_able_to_signup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Singup functionality in swiggy website",
+    "description": "",
+    "id": "singup-functionality-in-swiggy-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SwiggyFunctionality.feature",
+    "tags": [
+      {
+        "name": "@Search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
